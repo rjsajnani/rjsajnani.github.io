@@ -1,18 +1,17 @@
-
 [
   {
     "family": "MaterialIcons",
     "fonts": [
       {
-        "asset": "https://fonts.gstatic.com/s/materialicons/v42/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
+        "asset": "MaterialIcons-Regular.ttf"
       }
     ]
   },
   {
-    "family": "GoogleSansRegular",
+    "family": "Alata",
     "fonts": [
       {
-        "asset": "GoogleSansRegular.ttf"
+        "asset": "Alata-Regular.ttf"
       }
     ]
   }
