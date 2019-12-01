@@ -2,9 +2,27 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>rjsajnani</title>
+  <title>rjsajnani_portfolio</title>
 </head>
 <body>
   <script src="main.dart.js" type="application/javascript"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.6.0/firebase-auth.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyCjEoSKS77SWm3D3-TYTPOHfFpj8i0XqcQ",
+      authDomain: "myportfolio-e6d83.firebaseapp.com",
+      databaseURL: "https://myportfolio-e6d83.firebaseio.com",
+      projectId: "myportfolio-e6d83",
+      storageBucket: "myportfolio-e6d83.appspot.com",
+      messagingSenderId: "1003932369774",
+      appId: "1:1003932369774:web:6678b4eceef6be1307377f",
+      measurementId: "G-F80BQ3QLVN"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
 </body>
 </html>
